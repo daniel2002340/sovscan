@@ -1,0 +1,54 @@
+{
+  "version": 0.1,
+  "updated": "2026-10-27",
+  "asns": [
+    {
+      "asn": 15169,
+      "name": "GOOGLE",
+      "organization": "Google LLC",
+      "parent": "Alphabet Inc.",
+      "country": "US",
+      "jurisdiction": "US",
+      "laws": ["CLOUD Act", "FISA Section 702"],
+      "eu_based": false,
+      "notes": "Ultimate parent is US-based, so US authorities can compel data access regardless of where servers are located.",
+      "sources": ["https://stat.ripe.net/AS15169"]
+    },
+    {
+      "asn": 13335,
+      "name": "CLOUDFLARENET",
+      "organization": "Cloudflare, Inc.",
+      "parent": "Cloudflare, Inc.",
+      "country": "US",
+      "jurisdiction": "US",
+      "laws": ["CLOUD Act", "FISA Section 702"],
+      "eu_based": false,
+      "notes": "US company operating a global anycast network; traffic to EU sites behind Cloudflare is done by a US-controlled party.",
+      "sources": ["https://stat.ripe.net/AS13335"]
+    },
+    {
+      "asn": 60781,
+      "name": "LEASEWEB-NL-AMS-01",
+      "organization": "LeaseWeb Netherlands B.V.",
+      "parent": "Leaseweb Global B.V.",
+      "country": "NL",
+      "jurisdiction": "NL",
+      "laws": ["GDPR", "Wiv 2017"],
+      "eu_based": true,
+      "notes": "Dutch hosting provider",
+      "sources": ["https://stat.ripe.net/AS60781"]
+    },
+    {
+      "asn": 60404,
+      "name": "Liteserver",
+      "organization": "The Infrastructure Group B.V.",
+      "parent": "The Infrastructure Group B.V.",
+      "country": "NL",
+      "jurisdiction": "NL",
+      "laws": ["GDPR", "Wiv 2017"],
+      "eu_based": true,
+      "notes": "Dutch hosting provider",
+      "sources": ["https://stat.ripe.net/AS60404"]
+    }
+  ]
+}

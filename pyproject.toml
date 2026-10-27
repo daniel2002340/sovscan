@@ -1,0 +1,18 @@
+[project]
+name = "sovereigntyscanner"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "dnspython>=2.9.0",
+    "ruff>=0.17.2",
+]
+
+[project.scripts]
+sovscan = "main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+only-include = ["main.py", "ip_to_asn.py", "registry.json"]
